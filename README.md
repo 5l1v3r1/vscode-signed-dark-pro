@@ -4,7 +4,7 @@
 
 A professional, minimal dark User Interface crafted for your vscode/vscodium editor. It includes predefined, non-distractive, syntax highlighting that let's you focus on your code.
 
-<a href="https://www.buymeacoffee.com/51gn3d" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/51gn3d" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## Screenshot
 
