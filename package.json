@@ -1,0 +1,112 @@
+{
+    "name": "signed-dark-pro",
+    "displayName": "Signed Dark Pro",
+    "description": "A professional, minimal  dark User Interface crafted for your vscode/vscodium editor. It includes predefined, non-distractive, syntax highlighting that let's you focus on your code.",
+    "version": "1.0.0",
+    "publisher": "51gn3d",
+    "author": {
+        "name": "Alex Munene [@51gn3d]"
+    },
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "galleryBanner": {
+        "color": "#000000",
+        "theme": "dark"
+    },
+    "icon": "images/logo.png",
+    "homepage": "https://github.com/51gn3d/vscode-signed-dark-pro",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/51gn3d/vscode-signed-dark-pro.git"
+    },
+    "bugs": {
+        "url": "https://github.com/51gn3d/vscode-signed-dark-pro/issues"
+    },
+    "keywords": [
+        "pro",
+        "code",
+        "dark",
+        "theme",
+        "signed",
+        "dark pro",
+        "dark-theme",
+        "color-theme",
+        "signed dark pro"
+    ],
+    "categories": [
+        "Themes",
+        "Other"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Signed Dark Pro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/signed-dark-pro.color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "release-dry-run": "release-it --dry-run",
+        "release-minor": "release-it minor && npx vsce publish",
+        "release-major": "release-it major && npx vsce publish",
+        "gen-changelog": "auto-changelog && git add CHANGELOG.md"
+    },
+    "auto-changelog": {
+        "output": "CHANGELOG.md",
+        "template": "CHANGELOG.hbs",
+        "commitLimit": false,
+        "unreleased": true,
+        "package": true,
+        "replaceText": {
+            "NEW: ": "",
+            "MODIFY: ": "",
+            "REMOVE: ": "",
+            "FIX: ": "",
+            "DOC: ": ""
+        },
+        "includeBranch": [
+            "master"
+        ]
+    },
+    "release-it": {
+        "force": true,
+        "verbose": true,
+        "beforeChangelogCommand": "auto-changelog",
+        "hooks": {
+            "before:release": "yarn run gen-changelog"
+        },
+        "src": {
+            "commitMessage": "Signed Dark Pro %s release",
+            "tagAnnotation": "%s release"
+        },
+        "git": {
+            "requireCleanWorkingDir": false,
+            "commitMessage": "Signed Dark Pro ${version} release",
+            "tagAnnotation": "${version} release "
+        },
+        "github": {
+            "release": false,
+            "releaseName": "Signed Dark Pro v${version}",
+            "tokenRef": "GITHUB_TOKEN"
+        },
+        "npm": {
+            "publish": false
+        },
+        "prompt": {
+            "src": {
+                "status": true,
+                "commit": true,
+                "tag": true,
+                "push": true,
+                "release": true,
+                "publish": true
+            }
+        }
+    },
+    "devDependencies": {
+        "auto-changelog": "^2.0.0",
+        "release-it": "^13.6.2"
+    }
+}

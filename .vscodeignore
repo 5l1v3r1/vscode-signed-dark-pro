@@ -1,0 +1,8 @@
+.github/**
+.vscode/**
+.vscode-test/**
+.node_modules/**
+.gitignore
+CHANGELOG.hbs
+package.json
+yarn.lock
