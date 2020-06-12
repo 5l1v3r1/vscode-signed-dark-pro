@@ -2,7 +2,7 @@
     "name": "signed-dark-pro",
     "displayName": "Signed Dark Pro",
     "description": "A professional, minimal  dark User Interface crafted for your vscode/vscodium editor. It includes predefined, non-distractive, syntax highlighting that let's you focus on your code.",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "publisher": "51gn3d",
     "author": {
         "name": "Alex Munene [@51gn3d]"
@@ -48,9 +48,9 @@
         ]
     },
     "scripts": {
-        "release-dry-run": "release-it --dry-run",
-        "release-minor": "release-it minor && npx vsce publish",
-        "release-major": "release-it major && npx vsce publish",
+        "release-dry-run": "dotenv -e .env release-it --dry-run",
+        "release-minor": "dotenv -e .env release-it minor && npx vsce publish",
+        "release-major": "dotenv -e .env release-it major && npx vsce publish",
         "gen-changelog": "auto-changelog && git add CHANGELOG.md"
     },
     "auto-changelog": {
@@ -78,13 +78,13 @@
             "before:release": "yarn run gen-changelog"
         },
         "src": {
-            "commitMessage": "Signed Dark Pro %s release",
+            "commitMessage": "Signed Dark Pro v%s release",
             "tagAnnotation": "%s release"
         },
         "git": {
             "requireCleanWorkingDir": false,
-            "commitMessage": "Signed Dark Pro ${version} release",
-            "tagAnnotation": "${version} release "
+            "commitMessage": "Signed Dark Pro v${version} release",
+            "tagAnnotation": "v${version} release "
         },
         "github": {
             "release": false,
@@ -107,6 +107,7 @@
     },
     "devDependencies": {
         "auto-changelog": "^2.0.0",
+        "dotenv-cli": "^3.1.0",
         "release-it": "^13.6.2"
     }
 }
