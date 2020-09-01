@@ -51,7 +51,7 @@
         "release-dry-run": "dotenv -e .env release-it --dry-run",
         "release-minor": "dotenv -e .env release-it minor && npx vsce publish",
         "release-major": "dotenv -e .env release-it major && npx vsce publish",
-        "gen-changelog": "auto-changelog && git add CHANGELOG.md"
+        "generate-changelog": "auto-changelog && git add CHANGELOG.md"
     },
     "auto-changelog": {
         "output": "CHANGELOG.md",
@@ -75,7 +75,7 @@
         "verbose": true,
         "beforeChangelogCommand": "auto-changelog",
         "hooks": {
-            "before:release": "yarn run gen-changelog"
+            "before:release": "npm run generate-changelog"
         },
         "src": {
             "commitMessage": "Signed Dark Pro v%s release",
