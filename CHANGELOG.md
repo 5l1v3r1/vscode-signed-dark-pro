@@ -5,6 +5,18 @@
 All notable changes in this Signed Gark Pro's [released
 versions](https://github.com/51gn3d/vscode-signed-dark-pro/releases) are documented in this file.
 
+### RELEASE: [1.2.0](https://github.com/51gn3d/vscode-signed-dark-pro/compare/1.1.0...1.2.0)
+
+![REMOVED](https://img.shields.io/badge/-REMOVED-gray.svg?colorB=FF0000)
+
+> activitybar dropbackground [`bbf494e`](https://github.com/51gn3d/vscode-signed-dark-pro/commit/bbf494ecc463cd78dfd053435307f5795d288520) <br>
+
+![FIXED](https://img.shields.io/badge/-FIXED-gray.svg?colorB=00FF00)
+
+> comments selection visibility [`e58cbde`](https://github.com/51gn3d/vscode-signed-dark-pro/commit/e58cbde00255d57b442a705c4b5d3237fa0ac4f1) <br>
+
+<br>
+
 ### RELEASE: [1.1.0](https://github.com/51gn3d/vscode-signed-dark-pro/compare/1.0.0...1.1.0)
 
 ![FIXED](https://img.shields.io/badge/-FIXED-gray.svg?colorB=00FF00)
