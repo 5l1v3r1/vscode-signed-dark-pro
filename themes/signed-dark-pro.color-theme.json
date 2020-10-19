@@ -8,8 +8,8 @@
         /* https://code.visualstudio.com/api/references/theme-color#base-colors */
         "focusBorder": "#0040ff",
         "foreground": "#ffffff",
-        "widget.shadow": "#080808",
-        "selection.background": "#0080ff",
+        "widget.shadow": "#0040ff66",
+        "selection.background": "#0040ff",
         "descriptionForeground": "#777777",
         "errorForeground": "#ec3a37f5",
         "icon.foreground": "#ffffff",
@@ -86,7 +86,7 @@
         "list.deemphasizedForeground": "#ff0000",
         /* https://code.visualstudio.com/api/references/theme-color#activity-bar */
         "activityBar.background": "#000000",
-        "activityBar.dropBackground": "#222222",
+        "activityBar.dropBorder": "#0040ff",
         "activityBar.foreground": "#ffffff",
         "activityBar.inactiveForeground": "#555555",
         "activityBar.border": "#222222",
