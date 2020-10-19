@@ -6,9 +6,15 @@
 
 ![Signed Dark Pro Banner](https://raw.githubusercontent.com/51gn3d/vscode-signed-dark-pro/master/images/signed-dark-pro-banner.png)
 
-A minimal dark user interface with non-distractive syntax highlighting, that let's you focus on your code, crafted for your vscode/vscodium editor.
+</div>
+
+A professional, minimalistic dark user interface - with predefined, non-distractive, syntax highlighting that let's you focus on your code - crafted for your vscode/vscodium editor.
 
 <a href="https://www.buymeacoffee.com/51gn3d" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+## Preview
+
+<div align="center">
 
 ![Signed Dark Pro Preview](https://raw.githubusercontent.com/51gn3d/vscode-signed-dark-pro/master/images/signed-dark-pro.png)
 
@@ -21,7 +27,8 @@ A minimal dark user interface with non-distractive syntax highlighting, that let
 3. Click **Install** to install it.
 4. Click **Reload** to reload your editor.
 5. Code/File ＞ Preferences ＞ Color Theme ＞ **Signed Dark Pro**.
-6. Optional: Use the recommended settings below for best experience
+6.  [Rate five 🌟s](https://marketplace.visualstudio.com/items?itemName=51gn3d.signed-dark-pro&ssr=false#review-details) or  [Buy me a ☕](https://www.buymeacoffee.com/51gn3d) to appreciate the effort behind this theme.
+7. *Optional:* Use the "What settings do i use?" below for best experience.
 
 ## What settings do i use?
 
@@ -34,4 +41,6 @@ I use [Victor Mono](https://rubjo.github.io/victor-mono/) font, a free programmi
 
 ## Contribution
 
-[Issues](https://github.com/51gn3d/vscode-signed-dark-pro/issues) and Pull Requests are welcome ! Changes over the [released versions](https://github.com/51gn3d/vscode-signed-dark-pro/releases) are documented in the [CHANGELOG.md](https://github.com/51gn3d/vscode-signed-dark-pro/blob/master/CHANGELOG.md), please check the changelog before filing any issues, as they may have already fixed.
+[Issues](https://github.com/51gn3d/vscode-signed-dark-pro/issues) and [Pull Requests](https://github.com/51gn3d/vscode-signed-dark-pro/pulls) are welcome! 
+
+Changes over the [released versions](https://github.com/51gn3d/vscode-signed-dark-pro/releases) are documented in the [CHANGELOG.md](https://github.com/51gn3d/vscode-signed-dark-pro/blob/master/CHANGELOG.md), please check the changelog before filing any issues, as they may have already fixed.
